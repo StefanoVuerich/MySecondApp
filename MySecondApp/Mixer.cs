@@ -36,4 +36,17 @@ public class Mixer
     { 
         return volume; 
     }
+
+    public void CreateChannels()
+    {
+        InputChannels.Add(new Channel());
+        InputChannels.Add(new Channel());
+        InputChannels.Add(new Channel());
+        InputChannels.Add(new Channel());
+
+        OutputChannels.Add(new Channel());
+        OutputChannels.Add(new Channel());
+        OutputChannels.Add(new Channel());
+        OutputChannels.Add(new Channel());
+    }
 }
