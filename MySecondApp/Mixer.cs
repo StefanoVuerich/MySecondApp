@@ -31,6 +31,7 @@ public class Mixer
         }
     }
 
+    // get volume
     public int GetVolume() 
     { 
         return volume; 
