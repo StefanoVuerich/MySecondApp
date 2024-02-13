@@ -8,6 +8,7 @@ public class Mixer
     //costruttore senza parametri
     public Mixer()
     {
+        // inizializzazione variabili
         InputChannels = new List<Channel>();
         OutputChannels = new List<Channel>();
         volume = 0;
